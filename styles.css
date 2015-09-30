@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Figures';
+  src: url('fonts/Figures/Figures-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Figures/Figures-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Figures/Figures-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Figures/Figures-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Figures/Figures-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+[am-sandbox] {
+  font-family: 'Figures', "Helvetica Neue", sans-serif;
+  -webkit-font-feature-settings: "dlig" 1;
+  font-size: 100px;
+  background-color: #efefef;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.25);
+  margin: 40px;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+[am-sandbox]:focus {
+  outline: none;
+}
